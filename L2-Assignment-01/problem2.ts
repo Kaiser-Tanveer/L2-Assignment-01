@@ -4,5 +4,5 @@
         const result3 = items.filter(item => item.rating >= 4);
         return result3;
     }
-    filterByRating([{"title": "Pen", "rating": 3}, {"title": "Pencil", "rating": 4}, {"title": "Book", "rating": 4.1} ])
+    filterByRating([{"title": "Pen", "rating": 3}, {"title": "Pencil", "rating": 4}, {"title": "Book", "rating": 4.1} ]);
 }
