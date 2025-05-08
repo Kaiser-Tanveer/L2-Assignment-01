@@ -64,10 +64,10 @@
     function processValue(value: string | number) {
     if(typeof value === "string"){
         const result5 = value.length;
-        console.log(result5); 
+        return result5;
     }else if(typeof value === "number"){
         const result6 = value * 2;
-        console.log(result6);
+        return result6;
     }
     return value;
 }
