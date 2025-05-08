@@ -18,7 +18,7 @@
 2. Type is better for non-primitive types.
 3. Ex: type Example2 = string;
 
-# 7. An example of using union and intersection types in TypeScript:
+# 2. An example of using union and intersection types in TypeScript:
 
 ## Union:
 
@@ -37,4 +37,6 @@
 3. When we have match all the things, or have to make sure that all the values are presence then we have to use Intersection.
 4. Example: if(value & id){
    return false;
+   }else{
+   return true;
    }
